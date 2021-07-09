@@ -1,20 +1,46 @@
+body{
+    background-image: url(https://sevilla.abc.es/gurme/wp-content/uploads/sites/24/2013/04/pizza-margarita.jpg);
+}
 h1 {
-    color: brown;
+    text-align: center;
+    color: rgb(43, 43, 199);
+}
+
+h4 {
+    margin-top: auto;
 }
 
 img {
-    width: 400px;
+    width: 80%;
+    min-width: 80%;
+    border-radius: 4%;
+    border: 1px solid black;
+    margin: 10 auto;
 }
-
+ul {
+    padding: 0px;
+}
 #thirdDiv {
-    height: 600px;
-    width: 500px;
-    background-color: chocolate ;
+    text-align: center;
+    max-height: 600px;
+    max-width: 500px;
+    min-width: 200px;
+    background-color: rgb(14, 43, 21) ;
     padding: 50px;
-    border: 1px solid yellow;
+    border: 2px solid black;
+    border-radius: 5%;
+    max-width: 500px;
+    margin: 5 auto;
+    color: white;
 }
 
 #spanId {
     font-size: 18px;
+}
+
+.divClass {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 500px;
 }
 
